@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace XBase\Header;
 
@@ -14,6 +16,7 @@ namespace XBase\Header;
  * VisualFoxpro
  * @property string|null $backlist
  */
+#[\AllowDynamicProperties]
 class Header
 {
     /**
